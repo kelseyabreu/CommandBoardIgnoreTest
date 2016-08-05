@@ -6,7 +6,7 @@ using System.ServiceModel;
 using System.Runtime.Serialization;
 using System.ComponentModel;
 
-namespace Command_Board
+namespace CommandBoard_Data
 {
     [DataContract]
     public class Player : INotifyPropertyChanged

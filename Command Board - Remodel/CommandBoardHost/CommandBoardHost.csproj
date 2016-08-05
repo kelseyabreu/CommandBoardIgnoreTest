@@ -96,13 +96,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Command Board\Command Board.csproj">
-      <Project>{cff84801-3a50-41a6-b9d9-cff77317f961}</Project>
-      <Name>Command Board</Name>
-    </ProjectReference>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
+    <ProjectReference Include="..\CommandBoard_Data\CommandBoard_Data.csproj">
+      <Project>{6bb2d682-d574-4541-8f76-7c6f2b531c29}</Project>
+      <Name>CommandBoard_Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

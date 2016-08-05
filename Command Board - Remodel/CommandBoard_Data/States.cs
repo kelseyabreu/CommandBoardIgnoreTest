@@ -5,8 +5,9 @@ using System.Text;
 using System.Drawing;
 using System.Runtime.Serialization;
 
-namespace Command_Board
-{    [DataContract]
+namespace CommandBoard_Data{
+
+    [DataContract]
     public class States
     {
         [DataMember]
@@ -22,10 +23,10 @@ namespace Command_Board
         public List<Location>[] owned { set; get; }
 
         [DataMember]
-        public System.Drawing.Rectangle[][] rectangleGrid { set; get; }
+        public Rectangle[][] rectangleGrid { set; get; }
 
         [DataMember]
-        public System.Drawing.Rectangle[][] circleGrid { set; get; }
+        public Rectangle[][] circleGrid { set; get; }
 
         [DataMember]
         public int[][] values { set; get; }
